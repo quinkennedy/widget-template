@@ -1,10 +1,95 @@
-/* CSS for ChiliPeppr Widget */
-
-#com-chilipeppr-widget-template {
-   
+#com-chilipeppr-wspicker-collapsed {
+  position: absolute;
+  top: 0px;
+  right: 4px;
+  width: 32px;
+  height: 160px;
+  background-color: #f6f6f6;
 }
 
-#com-chilipeppr-widget-template .nav-tabs>li>a {
-    padding: 2px 6px;
+#com-chilipeppr-wspicker-collapsed .panel-body {
+  padding: 3px;
 }
 
+#com-chilipeppr-wspicker-collapsed .rotate-div {
+  position: relative;
+  width: 24px;
+  top: 10px;
+  left: 0;
+  border: 0px solid red;
+}
+
+#com-chilipeppr-wspicker-collapsed .rotate {
+  padding: 0;
+  margin: 0;
+  -moz-transform: rotate(90.0deg);
+  /* FF3.5+ */
+  -o-transform: rotate(90.0deg);
+  /* Opera 10.5 */
+  -webkit-transform: rotate(90.0deg);
+  /* Saf3.1+, Chrome */
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=-0.083);
+  /* IE6,IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=-0.083)";
+  /* IE8 */
+}
+
+#com-chilipeppr-wspicker-toggle-btn-rt {
+  border-radius: 4px;
+}
+
+#com-chilipeppr-wspicker {
+  padding: 0;
+}
+
+.com-chilipeppr-wspicker-row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.com-chilipeppr-wspicker-row .dropdown-toggle {
+  border: 0;
+}
+
+.com-chilipeppr-wspicker-img {
+  width: 100%;
+}
+
+.com-chilipeppr-wspicker-btnbar {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.com-chilipeppr-wspicker-btn {}
+
+.com-chilipeppr-wspicker-stats2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 4px 10px 10px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.com-chilipeppr-wspicker-imgcontain {
+  border: 0px solid red;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  height: 160px;
+  background-position: center;
+  background-size: cover;
+}
+
+.com-chilipeppr-wspicker-btnbar2 {
+  padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .com-chilipeppr-wsgrid .com-chilipeppr-ws-billboard-desc {
+    /* height: 160px; */
+    overflow: auto;
+    /* overflow:ellipsis; */
+  }
+}
