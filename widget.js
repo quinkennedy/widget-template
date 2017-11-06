@@ -6,10 +6,8 @@ cpdefine("inline:com-chilipeppr-widget-workspace-list", ["chilipeppr_ready"], fu
     id: "com-chilipeppr-widget-workspace-list", // Make the id the same as the cpdefine id
     name: "List of default workspaces available", // The descriptive name of your widget.
     desc: "Shows all the workspaces available without logging in.", // A description of what your widget does
-    url: "(auto fill by runme.js)", // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
-    fiddleurl: "(auto fill by runme.js)", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
-    githuburl: "(auto fill by runme.js)", // The backing github repo
-    testurl: "(auto fill by runme.js)", // The standalone working widget so can view it working by itself
+    url: "https://raw.githubusercontent.com/quinkennedy/widget-workspace-list/master/auto-generated-widget.html", // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
+    githuburl: "https://github.com/quinkennedy/widget-workspace-list", // The backing github repo
     /**
      * Define pubsub signals below. These are basically ChiliPeppr's event system.
      * ChiliPeppr uses amplify.js's pubsub system so please refer to docs at
